@@ -1,0 +1,80 @@
+body {
+    background-color : hsl(284, 100%, 26%);
+    color : hsl(0, 100%, 100%);
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.header {
+    /* border : 2px solid hsl(0, 100%, 100%); */
+    width : 35vw;
+    font-size : 40px;
+    float : right;
+    margin-top : 50px;
+    margin-bottom : 100px;
+}
+
+a {
+    color : hsl(0, 100%, 100%);
+    text-decoration : none;
+}
+a:hover {
+    color : hsl(284, 100%, 85%);
+    text-shadow : 0px 0px 15px hsl(0, 100%, 100%);
+    transition : 0.5s;
+}
+
+.margin-menu {
+    margin-right : 30px;
+}
+.menu {
+    display : inline-block;
+}
+.container {
+    clear : both;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+    margin-right : 80px;
+}
+
+.greeting, .profileImg {
+    width : 50vw;
+    text-align : center;
+    font-size : 40px;
+}
+
+.profileImg {
+    width : 43vw;
+    height : 51vw;
+    background-image : url(Profile-picture.jpg);
+    background-position : 1370px 2165px;
+    border : 3px solid hsl(0, 100%, 100%);
+    border-radius : 50%;
+}
+p {
+    width : 75%;
+    margin : 0 auto;
+}
+
+.greeting a {
+    display : inline-block;
+    margin-top : 30px;
+    padding : 20px 50px;;
+    background-color : hsl(284, 100%, 45%);
+    color : hsl(0, 100%, 100%);
+    font-size : 25px;
+    border-radius : 15px;
+}
+.greeting a:hover {
+    cursor : pointer;
+    background-color : hsl(284, 80%, 45%);
+    box-shadow : 0px 1px 50px hsl(0, 100%, 0%);
+    transition : 0.35s;
+}
+
+.footer {
+    margin : 0 auto;
+    margin-top : 100px;
+    margin-bottom : 30px;
+    text-align : center;
+}

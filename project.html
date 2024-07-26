@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <div class="header">
+        <div class="menu margin-menu"><a href="index.html">Home</a></div>
+        <div class="menu margin-menu"><a href="about.html">About</a></div>
+        <div class="menu"><a href="contact.html">Contact</a></div>
+    </div>
+
+    <div class="frame1">
+        <div class="frame2">
+            <div class="frame3">
+                <div class="frame4">
+                    <img src="Chat.png" alt="Web chat application">
+                </div>
+                <p style="margin-bottom : 7.5%; margin-top : 7.5%">Like most chat application, but this one is the web version</p>
+            </div>
+            <p>Web Chat Application</p>
+        </div>
+        <div class="frame2">
+            <div class="frame3">
+                <div class="frame4">
+                    <img src="Running.png" alt="Running Tracker">
+                </div>
+                <p>Application to track your running distance and how much calories you burn</p>
+            </div>
+            <p>Running Tracker</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright | Fahrur Rozi 2024</p>
+    </div>
+
+    <style>
+        body {
+            padding-bottom : 150px;
+        }
+        .frame1 {
+            width : 80vw;
+            margin : 0 auto;
+            display : flex;
+            align-items : center;
+            justify-content : space-evenly;
+        }
+        .frame2 {
+            text-align : center;
+            width : 23%;
+        }
+        .frame3 {
+            background-color : hsl(284, 100%, 45%);
+            margin-bottom : 15px;
+            padding : 10%;
+            border-radius : 4%;
+        }
+        .frame3:hover {
+            cursor : pointer;
+            box-shadow : 0px 2px 50px;
+            transition : all 0.35s ease-in-out;
+        }
+        .frame3 p {
+            width : 100%;
+        }
+        .frame4 {
+            background-color : hsl(0, 100%, 100%);
+            margin-bottom : 5%;
+            padding-top : 5%;
+            padding-bottom : 5%;
+            border-radius : 4%;
+        }
+        .frame4 img {
+            width : 200px;
+            height : 200px;
+        }
+        .footer {
+            position : absolute;
+            bottom : -90px;
+            width : 100%;
+        }
+        .footer p {
+            width : 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
