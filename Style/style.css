@@ -46,7 +46,7 @@ a:hover {
 .profileImg {
     width : 43vw;
     height : 51vw;
-    background-image : url(Profile-picture.jpg);
+    background-image : url(/Icon/Profile-picture.jpg);
     background-position : 1370px 2165px;
     border : 3px solid hsl(0, 100%, 100%);
     border-radius : 50%;
